@@ -1,0 +1,28 @@
+{
+  "cSpell.words": [
+    "arcgis",
+    "boundingbox",
+    "dotenv",
+    "duckdb",
+    "genai",
+    "geopandas",
+    "ginza",
+    "httpfs",
+    "ipyform",
+    "jsonv",
+    "matplotlib",
+    "maxx",
+    "maxy",
+    "miny",
+    "openstreetmap",
+    "overturemaps",
+    "polyline",
+    "rasterio",
+    "sents",
+    "spacy",
+    "tobytes",
+    "ueno",
+    "vectortilelayer",
+    "wajima"
+  ]
+}
