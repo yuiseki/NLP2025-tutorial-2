@@ -23,6 +23,7 @@
   - Example Selector と Few-Shot Prompt
 - `004/`
   - DuckDB のセットアップ
+  - Natural Earth とは
   - 生成 AI による SQL の出力
   - DuckDB と SQL による地理空間情報データ分析
   - GeoJSON: MultiPolygon データの可視化
