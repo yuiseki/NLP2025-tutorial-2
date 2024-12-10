@@ -22,7 +22,7 @@
   - 生成 AI による SQL の出力
   - DuckDB と SQL による地理空間情報データ分析
   - GeoJSON: MultiPolygon データの可視化
-  - SQL RAG による質問応答システム
+  - SQL RAG による地理空間情報データ分析・質問応答システム
 - `005/`
   - ベクトルタイルとは
     - Maplibre Style Spec と style.json とは
