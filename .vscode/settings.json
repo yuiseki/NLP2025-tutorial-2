@@ -2,8 +2,10 @@
   "cSpell.words": [
     "arcgis",
     "boundingbox",
+    "charites",
     "dotenv",
     "duckdb",
+    "epsg",
     "genai",
     "geopandas",
     "ginza",
@@ -21,6 +23,7 @@
     "sents",
     "spacy",
     "tobytes",
+    "tslab",
     "ueno",
     "vectortilelayer",
     "wajima"
