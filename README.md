@@ -26,9 +26,9 @@
 - `005/`
   - ベクトルタイルとは
     - Maplibre Style Spec と style.json とは
-  - charites の紹介
-  - 生成 AI による style.json の出力
   - style.json による地図のカスタマイズ
+  - 生成 AI による style.json の出力
+  - charites の紹介
 - `006/`
   - ラスタータイルとは
   - 地理院タイル 全国最新写真（シームレス） の紹介
