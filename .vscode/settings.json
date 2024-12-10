@@ -1,5 +1,6 @@
 {
   "cSpell.words": [
+    "aeroway",
     "arcgis",
     "boundingbox",
     "charites",
@@ -12,6 +13,10 @@
     "httpfs",
     "ipyform",
     "jsonv",
+    "landcover",
+    "landuse",
+    "leafmap",
+    "mapwidget",
     "matplotlib",
     "maxx",
     "maxy",
@@ -19,6 +24,7 @@
     "openstreetmap",
     "overturemaps",
     "polyline",
+    "pymgl",
     "rasterio",
     "sents",
     "spacy",
