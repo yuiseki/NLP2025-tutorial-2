@@ -20,14 +20,16 @@
   - OvenStreetMap のデータ構造
     - nwr: Node, Way, Relation
   - GeoJSON: 複数の Point データの可視化
-  - Example Selector と Few-Shot Prompt
+  - More
+    - Example Selector と Few-Shot Prompt
 - `004/`
   - DuckDB のセットアップ
   - Natural Earth とは
   - 生成 AI による SQL の出力
   - DuckDB と SQL による地理空間情報データ分析
   - GeoJSON: MultiPolygon データの可視化
-  - SQL RAG による地理空間情報データ分析・質問応答システム
+  - More
+    - SQL RAG による地理空間情報データ分析・質問応答システム
 - `005/`
   - ラスタータイルとは
   - 地理院タイル 全国最新写真（シームレス） の紹介
