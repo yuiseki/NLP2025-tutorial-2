@@ -1,3 +1,8 @@
 {
-  "recommendations": ["ms-toolsai.jupyter", "ms-python.python"]
+  "recommendations": [
+    "ms-toolsai.jupyter",
+    "ms-python.python",
+    "markwhen.markwhen",
+    "marp-team.marp-vscode"
+  ]
 }
