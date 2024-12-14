@@ -1,5 +1,10 @@
 # NLP + GIS 関連プロジェクトと関連研究
 
+## ～ LLM
+
+- GeoSPARQL
+- NER
+
 ## 2023 年
 
 ### 2 月
@@ -37,6 +42,12 @@
 - 2023 年 5 月 2 日
   - QGPTAgent (plugin of QGIS)
     - https://github.com/momaabna/QGPTAgent
+- 2023 年 5 月 10 日
+  - GeoQuestions1089
+    - https://github.com/AI-team-UoA/GeoQuestions1089
+    - https://huggingface.co/datasets/AI-team-UoA/GeoQuestions1089
+    - 2023 年 11 月 6 日
+      - [Benchmarking Geospatial Question Answering Engines Using the Dataset GeoQuestions1089](http://cgi.di.uoa.gr/~koubarak/publications/2023/ISWC_2023_GeoQuestions_paper-3.pdf)
 - 2023 年 5 月 13 日
   - TRIDENT
     - https://github.com/yuiseki/TRIDENT
@@ -97,6 +108,14 @@
     - 2024 年 2 月 24 日
       - [GeoLLM: Extracting Geospatial Knowledge from Large Language Models](https://arxiv.org/abs/2310.06213)
 
+### 3 月
+
+- 2024 年 3 月 29 日
+  - Geode
+    - https://github.com/devashish-gupta/Geode
+    - 2024 年 6 月 26 日
+      - [Geode: A Zero-shot Geospatial Question-Answering Agent with Explicit Reasoning and Precise Spatio-Temporal Retrieval](https://arxiv.org/abs/2407.11014)
+
 ### 5 月
 
 - 2024 年 5 月 11 日
@@ -104,6 +123,14 @@
     - https://github.com/gladcolor/LLM-Find/
     - 2024 年 7 月 13 日
       - [An Autonomous GIS Agent Framework for Geospatial Data Retrieval](https://arxiv.org/abs/2407.21024)
+
+### 6 月
+
+- 2024 年 6 月 1 日
+  - MapGPT
+    - https://github.com/chen-judge/MapGPT
+    - 2024 年 6 月 20 日
+      - [MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation](https://arxiv.org/abs/2401.07314)
 
 ### 8 月
 
