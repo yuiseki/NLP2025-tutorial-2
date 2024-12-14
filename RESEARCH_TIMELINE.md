@@ -1,9 +1,10 @@
 # NLP + GIS 関連プロジェクトと関連研究
 
-## ～ LLM
+## 生成 AI (transformer) 以前
 
 - GeoSPARQL
 - NER
+- Word2Vec
 
 ## 2023 年
 

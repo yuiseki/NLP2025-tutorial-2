@@ -1,0 +1,88 @@
+title: GenAI + GIS 関連プロジェクトと関連研究
+
+group GenAI
+  group OpenAI
+    2018-06-11: GPT-1
+    2019-02-14: GPT-2
+    2020-06-11: GPT-3
+    2021-01-05: CLIP
+    2022-03-04: InstructGPT
+    2022-03-15: GPT-3.5
+    2022-03-15: text-davinci-002
+    2022-11-28: text-davinci-003
+    2022-11-30: gpt-3.5-turbo
+    2022-11-30: ChatGPT
+    2023-03-14: GPT-4
+    2024-05-13: GPT-4o
+    2024-09-12: o1
+  endGroup
+
+  group Google
+    2018-10-11: BERT
+    2020-02-24: T5
+    2021-05-18: LaMDA
+    2022-05-11: LaMDA 2
+    2022-04-26: PaLM
+    2023-02-06: Bard
+    2023-05-10: PaLM 2
+    2023-12-06: Gemini 1.0
+    2024-12-11: Gemini 2.0
+  endGroup
+
+  group Facebook
+    2023-02-23: LLaMA
+    2023-04-05: Segment Anything
+    2023-07-18: Llama 2
+    2024-04-18: Llama 3
+    2024-08-01: SAM 2
+  endGroup
+
+  group Other
+    2023-04-17: LLaVA
+    2023-10-05: LLaVA 1.5
+    2024-01-30: LLaVA NeXT
+  endGroup
+endGroup
+
+group GenAI + GIS
+  2022-10-21: SpaBERT
+  2022-11-09: geo-twitter
+  2022-12-16: GeoBERT
+  2023-02-12: QChatGPT
+  2023-03-18: ChatGeoPT
+  2023-03-30: osm-ai-map
+  2023-04-17: LLM-Geo (prototype of Autonomous GIS)
+  2023-04-19: samgeo (segment-geospatial)
+  2023-05-10: GeoQuestions1089
+  2023-07-16: GeoGPT
+  2023-08-01: GeoLM
+  2023-08-15: SatCLIP
+  2023-12-13: GeoCLIP
+  2024-02-14: ArcGIS and Generative AI Assistants
+  2024-02-21: GeoLLM
+  2024-03-29: Geode
+  2024-05-11: LLM-Find
+  2024-06-01: MapGPT
+  2024-06-11: GeoGPT-2
+
+  group yuiseki
+    2023-05-13: TRIDENT
+    2023-07-17: postgis-sandbox-lab
+    2023-12-10: charites-ai
+    2024-03-23: sake_qa
+    2024-04-21: YuisekinAI
+    2024-05-05: text2geoql
+    2024-05-05: tinyllama-coder-trident-v0.1
+    2024-10-24: TRIDENT DuckDB
+    2024-11-07: TRIDENT Charites
+  endGroup
+
+  group QGIS plugins
+    2023-05-02: QGPTAgent (plugin of QGIS)
+    2023-06-14: Geo-SAM (plugin of QGIS)
+    2024-08-04: GeoData Retriever Agent (plugin of QGIS)
+    2024-09-06: SpatialAnalysisAgent (implementation of GIS Copilot, plugin of QGIS)
+  endGroup
+endGroup
+
+
