@@ -57,7 +57,6 @@ group GenAI + GIS
   endGroup
 
   group GPT
-    2023-02-12: QChatGPT
     2023-03-18: ChatGeoPT
     2023-03-30: osm-ai-map
     2023-04-17: LLM-Geo (prototype of Autonomous GIS)
@@ -93,6 +92,7 @@ group GenAI + GIS
   endGroup
 
   group QGIS plugins
+    2023-02-12: QChatGPT
     2023-05-02: QGPTAgent (plugin of QGIS)
     2023-06-14: Geo-SAM (plugin of QGIS)
     2024-08-04: GeoData Retriever Agent (plugin of QGIS)

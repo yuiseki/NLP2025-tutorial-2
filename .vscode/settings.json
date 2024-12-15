@@ -44,5 +44,6 @@
     "ueno",
     "vectortilelayer",
     "wajima"
-  ]
+  ],
+  "markdown.marp.enableHtml": true
 }
