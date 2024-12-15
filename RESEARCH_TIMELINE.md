@@ -2,9 +2,36 @@
 
 ## 生成 AI (transformer) 以前
 
-- GeoSPARQL
-- NER
-- Word2Vec
+- GeoNLP (2011)
+- GeoSPARQL (2014)
+- LOD (Linked Open Data)
+- NER (Named Entity Recognition, 固有表現抽出)
+  - spaCy (2015)
+  - GiNZA (2019)
+- 単語の埋め込み
+  - Word2Vec (2013)
+
+## 2022
+
+### 2022-10
+
+- 2022-10-21
+  - SpaBERT
+    - https://github.com/knowledge-computing/spabert
+    - [SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation](https://arxiv.org/abs/2210.12213)
+
+### 2022-11
+
+- 2022-11-09
+  - geo-twitter
+    - https://github.com/K4TEL/geo-twitter
+    - [Predicting the Geolocation of Tweets Using transformer models on Customized Data](https://arxiv.org/abs/2303.07865)
+
+### 2022-12
+
+- 2022-12-16
+  - GeoBERT
+    - [GeoBERT: Pre-Training Geospatial Representation Learning on Point-of-Interest](https://www.mdpi.com/2076-3417/12/24/12942)
 
 ## 2023
 
@@ -124,6 +151,11 @@
     - https://github.com/gladcolor/LLM-Find/
     - 2024-07-13
       - [An Autonomous GIS Agent Framework for Geospatial Data Retrieval](https://arxiv.org/abs/2407.21024)
+- 2024-05-24
+  - PIGEON
+    - https://github.com/LukasHaas/PIGEON
+    - 2024-05-28
+      - [PIGEON: Predicting Image Geolocations](https://arxiv.org/abs/2307.05845)
 
 ### 2024-06
 

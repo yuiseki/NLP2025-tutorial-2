@@ -8,6 +8,7 @@
     "duckdb",
     "epsg",
     "genai",
+    "Geolocations",
     "geopandas",
     "geoql",
     "Geospatially",
