@@ -5,11 +5,11 @@
 - GeoNLP (2011)
 - GeoSPARQL (2014)
 - LOD (Linked Open Data)
+- 単語の埋め込み
+  - Word2Vec (2013)
 - NER (Named Entity Recognition, 固有表現抽出)
   - spaCy (2015)
   - GiNZA (2019)
-- 単語の埋め込み
-  - Word2Vec (2013)
 
 ## 2022
 
@@ -70,6 +70,9 @@
     - https://samgeo.gishub.org/
     - 2023-09-12
       - [samgeo: A Python package for segmenting geospatial data with the Segment Anything Model (SAM)](https://joss.theoj.org/papers/10.21105/joss.05663)
+- 2023-04-26
+  - Palantir AIP
+    - https://www.youtube.com/watch?v=XEM5qz__HOU
 
 ### 2023-05
 

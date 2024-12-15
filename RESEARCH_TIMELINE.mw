@@ -37,6 +37,10 @@ group GenAI
     2024-08-01: SAM 2
   endGroup
 
+  group Palantir
+    2023-04-26: Palantir AIP
+  endGroup
+
   group Other
     2023-04-17: LLaVA
     2023-05-26: Voyager
