@@ -13,6 +13,12 @@
 
 ## 2022
 
+### 2022-06
+
+- 2022-06-10
+  - ERNIE-GeoL
+    - [ERNIE-GeoL: A Geography-and-Language Pre-trained Model and its Applications in Baidu Maps](https://arxiv.org/abs/2203.09127)
+
 ### 2022-10
 
 - 2022-10-21
@@ -82,6 +88,11 @@
 
 ### 2023-06
 
+- 2023-06-06
+  - GPT4GEO
+    - https://github.com/jonathan-roberts1/GPT4GEO
+    - 2023-05-30
+      - [GPT4GEO: How a Language Model Sees the World's Geography](https://arxiv.org/abs/2306.00020)
 - 2023-06-14
   - Geo-SAM (plugin of QGIS)
     - https://github.com/coolzhao/Geo-SAM
@@ -109,6 +120,11 @@
     - https://github.com/microsoft/satclip
     - 2023-11-28
       - [SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery](https://arxiv.org/abs/2311.17179)
+- 2023-11-23
+  - GeoChat
+    - [GeoChat: Grounded Large Vision-Language Model for Remote Sensing](https://arxiv.org/abs/2311.15826)
+    - 2024-02-28
+      - https://github.com/mbzuai-oryx/GeoChat
 
 ### 2023-12
 
