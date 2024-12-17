@@ -6,9 +6,11 @@
 
 ## ディレクトリ構造
 
-- `RESEARCH_TIMELINE.md`
+- [SLIDE.md](SLIDE.md)
+  - 本チュートリアルのスライド
+- [RESEARCH_TIMELINE.md](RESEARCH_TIMELINE.md)
   - 関連研究のタイムライン
-- `RESEARCH_TIMELINE.mw`
+- [RESEARCH_TIMELINE.mw](RESEARCH_TIMELINE.mw)
   - 関連研究のタイムライン（Markwhen）
 - `001/`
   - 生成 AI による地名抽出
