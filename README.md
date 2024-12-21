@@ -8,10 +8,12 @@
 
 - [SLIDE.md](SLIDE.md)
   - 本チュートリアルのスライド
-- [RESEARCH_TIMELINE.md](RESEARCH_TIMELINE.md)
-  - 関連研究のタイムライン
-- [RESEARCH_TIMELINE.mw](RESEARCH_TIMELINE.mw)
-  - 関連研究のタイムライン（Markwhen）
+- [TIMELINE.md](TIMELINE.md)
+  - 関連論文と関連プロジェクトのタイムライン概要
+- [TIMELINE_PAPER.md](TIMELINE_PAPER.md)
+  - 関連論文のタイムライン
+- [TIMELINE_PROJECT.md](TIMELINE_PROJECT.md)
+  - 関連プロジェクトのタイムライン
 - `001/`
   - 生成 AI による地名抽出
   - Nominatim API によるジオコーディング
