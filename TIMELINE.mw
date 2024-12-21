@@ -17,7 +17,12 @@ group GenAI
     2022-11-30: ChatGPT
     2023-03-14: GPT-4
     2024-05-13: GPT-4o
-    2024-09-12: o1
+    2024-07-18: GPT-4o mini
+    2024-09-12: o1-preview
+    2024-09-12: o1-mini
+    2024-12-05: o1 (GA)
+    2024-12-05: o1 pro mode
+    2024-12-21: o3 (PR)
   endGroup
 
   group Google
@@ -29,7 +34,16 @@ group GenAI
     2023-02-06: Bard
     2023-05-10: PaLM 2
     2023-12-06: Gemini 1.0
-    2024-12-11: Gemini 2.0
+    2024-02-16: Gemini 1.5
+    2024-04-09: gemini-1.5-pro-latest (preview)
+    2024-05-10: gemini-1.5-flash-latest (preview)
+    2024-05-23: gemini-1.5-pro-001 (GA)
+    2024-05-23: gemini-1.5-flash-001 (GA)
+    2024-06-27: Gemini 1.5 Pro 2M context window (GA)
+    2024-10-03: gemini-1.5-flash-8b-001
+    2024-12-04: gemini-1.5-flash-002-high-fidelity
+    2024-12-11: gemini-2.0-flash-exp
+    2024-12-21: gemini-2.0-flash-thinking-exp
   endGroup
 
   group Facebook
@@ -37,7 +51,17 @@ group GenAI
     2023-04-05: Segment Anything
     2023-07-18: Llama 2
     2024-04-18: Llama 3
+    2024-07-12: Llama 3.1
     2024-08-01: SAM 2
+    2024-09-26: Llama 3.2
+    2024-12-06: Llama 3.3
+  endGroup
+
+  group Other
+    2023-04-17: LLaVA
+    2023-05-26: Voyager
+    2023-10-05: LLaVA 1.5
+    2024-01-30: LLaVA NeXT
   endGroup
 
   group Palantir
@@ -46,13 +70,6 @@ group GenAI
 
   group Esri
     2024-02-14: ArcGIS Generative AI Assistants
-  endGroup
-
-  group Other
-    2023-04-17: LLaVA
-    2023-05-26: Voyager
-    2023-10-05: LLaVA 1.5
-    2024-01-30: LLaVA NeXT
   endGroup
 
   group Open Source Initiative
