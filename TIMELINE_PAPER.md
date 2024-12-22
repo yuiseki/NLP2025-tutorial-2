@@ -48,6 +48,11 @@
 - 2023-07-16: GeoGPT
   - [GeoGPT: Understanding and Processing Geospatial Tasks through An Autonomous GPT](https://arxiv.org/abs/2307.07930)
 
+### 2023-08
+
+- 2023-08-30: Text-to-OverpassQL
+  - [Text-to-OverpassQL: A Natural Language Interface for Complex Geodata Querying of OpenStreetMap](https://arxiv.org/abs/2308.16060)
+
 ### 2023-09
 
 - 2023-09-12: samgeo

@@ -67,6 +67,11 @@
   - https://github.com/geobrain-ai/geogalactica
   - https://huggingface.co/geobrain-ai/geogalactica
 
+### 2023-08
+
+- 2023-08-30: OverpassNL
+  - https://github.com/raphael-sch/OverpassNL
+
 ### 2023-10
 
 - 2023-10-22: GeoLM
