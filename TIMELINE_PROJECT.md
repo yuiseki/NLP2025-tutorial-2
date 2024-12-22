@@ -109,7 +109,7 @@
 
 ### 2024-02
 
-- 2024-02-14: ArcGIS and Generative AI Assistants
+- 2024-02-14: ArcGIS Generative AI Assistants
   - https://mediaspace.esri.com/media/t/1_opret32t
   - https://doc.arcgis.com/en/arcgis-online/administer/configure-assistants.htm
 - 2024-02-17: VQASynth (3rd party implementation of SpatialVLM)
@@ -167,10 +167,9 @@
 
 ### 2024-09
 
-- 2024-09-06
-  - SpatialAnalysisAgent (implementation of GIS Copilot, plugin of QGIS)
-    - https://github.com/Teakinboyewa/SpatialAnalysisAgent
-    - https://plugins.qgis.org/plugins/SpatialAnalysisAgent-master/
+- 2024-09-06: SpatialAnalysisAgent (implementation of GIS Copilot, plugin of QGIS)
+  - https://github.com/Teakinboyewa/SpatialAnalysisAgent
+  - https://plugins.qgis.org/plugins/SpatialAnalysisAgent-master/
 
 ### 2024-10
 
