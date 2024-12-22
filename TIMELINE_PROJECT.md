@@ -91,7 +91,7 @@
 - 2023-12-13 GeoCLIP
   - https://github.com/VicenteVivan/geo-clip
 
-## 2024 年
+## 2024
 
 ### 2024-02
 
