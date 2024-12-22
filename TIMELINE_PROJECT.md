@@ -114,36 +114,36 @@
   - https://doc.arcgis.com/en/arcgis-online/administer/configure-assistants.htm
 - 2024-02-17: VQASynth (3rd party implementation of SpatialVLM)
   - https://github.com/remyxai/VQASynth
-- 2024-02-21 GeoLLM: Extracting Geospatial Knowledge from Large Language Models" (ICLR 2024) and "Large Language Models are Geographically Biased
+- 2024-02-21: GeoLLM, Extracting Geospatial Knowledge from Large Language Models and Large Language Models are Geographically Biased
   - https://github.com/rohinmanvi/GeoLLM
   - https://rohinmanvi.github.io/GeoLLM/
-- 2024-02-28: GeoChat: Grounded Large Vision-Language Model for Remote Sensing
+- 2024-02-28: GeoChat, Grounded Large Vision-Language Model for Remote Sensing
   - https://github.com/mbzuai-oryx/GeoChat
 
 ### 2024-03
 
-- 2024-03-29: Geode: A zero-shot geospatial question answering agent with precise spatiotemporal retrieval and explicit reasoning capabilities
+- 2024-03-29: Geode, A zero-shot geospatial question answering agent with precise spatiotemporal retrieval and explicit reasoning capabilities
   - https://github.com/devashish-gupta/Geode
 
 ### 2024-04
 
-- 2024-04-19: LLMGeo: Benchmarking Large Language Models on Image Geolocation In-the-wild
+- 2024-04-19: LLMGeo, Benchmarking Large Language Models on Image Geolocation In-the-wild
   - https://github.com/yeyimilk/LLMGeo
 
 ### 2024-05
 
-- 2024-05-04: remote-sensing-image-retrieval: Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models
+- 2024-05-04: remote-sensing-image-retrieval, Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models
   - https://github.com/IBM/remote-sensing-image-retrieval
-- 2024-05-11: LLM-Find: An autonomous GIS agent framework for geospatial data retrieval
+- 2024-05-11: LLM-Find, An autonomous GIS agent framework for geospatial data retrieval
   - https://github.com/gladcolor/LLM-Find/
-- 2024-05-19: GeoReasoner Geo-localization with Reasoning in Street Views using a Large Vision-Language Mode
+- 2024-05-19: GeoReasoner, Geo-localization with Reasoning in Street Views using a Large Vision-Language Mode
   - https://github.com/lingli1996/GeoReasoner
-- 2024-05-24: PIGEON: Predicting Image Geolocations
+- 2024-05-24: PIGEON, Predicting Image Geolocations
   - https://github.com/LukasHaas/PIGEON
 
 ### 2024-06
 
-- 2024-06-01: MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation
+- 2024-06-01: MapGPT, Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation
   - https://github.com/chen-judge/MapGPT
 
 ### 2024-07
@@ -158,11 +158,11 @@
 - 2024-08-04: AutonomousGIS_GeodataRetrieverAgent (implementation of Autonomous GIS, plugin of QGIS)
   - https://github.com/Teakinboyewa/AutonomousGIS_GeodataRetrieverAgent
   - https://plugins.qgis.org/plugins/AutonomousGIS_GeodataRetrieverAgent/
-- 2024-08-18: Geo-FuB: A Method for Constructing an Operator-Function Knowledge Base for Geospatial Code Generation Tasks Using Large Language Models
+- 2024-08-18: Geo-FuB, A Method for Constructing an Operator-Function Knowledge Base for Geospatial Code Generation Tasks Using Large Language Models
   - https://github.com/whuhsy/Geo-FuB
-- 2023-08-21: smileGeo: Swarm Intelligence in Geo-localization
+- 2023-08-21: smileGeo, Swarm Intelligence in Geo-localization
   - https://anonymous.4open.science/r/ViusalGeoLocalization-F8F5
-- 2024-08-23: geospatial-code-llms-dataset: Evaluation of Code LLMs on Geospatial Code Generation
+- 2024-08-23: geospatial-code-llms-dataset, Evaluation of Code LLMs on Geospatial Code Generation
   - https://github.com/kraina-ai/geospatial-code-llms-dataset
 
 ### 2024-09
@@ -174,5 +174,5 @@
 
 ### 2024-10
 
-- 2024-10-22: GeoLLaVA: Efficient Fine-Tuned Vision-Language Models for Temporal Change Detection in Remote Sensing
+- 2024-10-22: GeoLLaVA, Efficient Fine-Tuned Vision-Language Models for Temporal Change Detection in Remote Sensing
   - https://github.com/HosamGen/GeoLLaVA

@@ -60,6 +60,7 @@ group GenAI
   group Other
     2023-04-17: LLaVA
     2023-05-26: Voyager
+    2023-09-16: TinyLlama
     2023-10-05: LLaVA 1.5
     2024-01-30: LLaVA NeXT
   endGroup
