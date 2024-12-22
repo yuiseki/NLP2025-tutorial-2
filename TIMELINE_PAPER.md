@@ -212,7 +212,7 @@
   - [An LLM Agent for Automatic Geospatial Data Analysis](https://arxiv.org/abs/2410.18792)
 - 2024-10-24
   - [Geometric Feature Enhanced Knowledge Graph Embedding and Spatial Reasoning](https://arxiv.org/abs/2410.18345)
-- 2024-10-25
+- 2024-10-25: GeoLLaVA
   - [GeoLLaVA: Efficient Fine-Tuned Vision-Language Models for Temporal Change Detection in Remote Sensing](https://arxiv.org/abs/2410.19552)
 - 2024-10-28: Geo-FuB
   - [Geo-FuB: A Method for Constructing an Operator-Function Knowledge Base for Geospatial Code Generation Tasks Using Large Language Models](https://arxiv.org/abs/2410.20975)

@@ -151,6 +151,8 @@
 
 ### 2024-07
 
+- 2024-07-12: CityGuessr
+  - https://github.com/ParthPK/CityGuessr
 - 2024-07-12: GeoText-1652
   - https://github.com/MultimodalGeo/GeoText-1652
 
@@ -172,3 +174,8 @@
   - SpatialAnalysisAgent (implementation of GIS Copilot, plugin of QGIS)
     - https://github.com/Teakinboyewa/SpatialAnalysisAgent
     - https://plugins.qgis.org/plugins/SpatialAnalysisAgent-master/
+
+### 2024-10
+
+- 2024-10-22: GeoLLaVA
+  - https://github.com/HosamGen/GeoLLaVA
