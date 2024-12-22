@@ -81,6 +81,8 @@
 
 ### 2023-11
 
+- 2023-11-07: Loc2Vec
+  - https://github.com/angus-spence/loc2vec
 - 2023-11-16: SatCLIP
   - https://github.com/microsoft/satclip
 
@@ -98,6 +100,8 @@
 - 2024-02-14: ArcGIS and Generative AI Assistants
   - https://mediaspace.esri.com/media/t/1_opret32t
   - https://doc.arcgis.com/en/arcgis-online/administer/configure-assistants.htm
+- 2024-02-17: VQASynth (3rd party implementation of SpatialVLM)
+  - https://github.com/remyxai/VQASynth
 - 2024-02-21 GeoLLM
   - https://github.com/rohinmanvi/GeoLLM
   - https://rohinmanvi.github.io/GeoLLM/
