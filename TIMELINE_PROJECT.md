@@ -71,7 +71,7 @@
 
 ### 2023-08
 
-- 2023-08-30: OverpassNL
+- 2023-08-30: OverpassNL (OverpassT5)
   - https://github.com/raphael-sch/OverpassNL
 
 ### 2023-10
