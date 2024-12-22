@@ -1,11 +1,22 @@
 # 開発タイムライン
 
+## 2021
+
+### 2021-05
+
+- 2021-05-26: Geo-Bench
+  - https://github.com/ServiceNow/geo-bench
+
 ## 2022
 
 ### 2022-10
 
+- 2022-10-13: MGeo
+  - https://github.com/PhantomGrapes/MGeo
 - 2022-10-21: SpaBERT
   - https://github.com/knowledge-computing/spabert
+- 2022-10-22: G^3
+  - https://github.com/g-luo/geolocation_via_guidebook_grounding
 
 ### 2022-11
 
@@ -58,6 +69,8 @@
 - 2023-06-14: Geo-SAM (plugin of QGIS)
   - https://github.com/coolzhao/Geo-SAM
   - https://geo-sam.readthedocs.io/en/latest/
+- 2023-06-30: GeoNet
+  - https://github.com/ViLab-UCSD/GeoNet
 
 ### 2023-07
 
@@ -78,6 +91,8 @@
 
 - 2023-10-22: GeoLM
   - https://github.com/knowledge-computing/geolm
+- 2023-10-24: CurriculumLoc
+  - https://github.com/npupilab/CurriculumLoc
 
 ### 2023-11
 
@@ -120,6 +135,8 @@
 
 ### 2024-05
 
+- 2024-05-04: remote-sensing-image-retrieval
+  - https://github.com/IBM/remote-sensing-image-retrieval
 - 2024-05-11: LLM-Find
   - https://github.com/gladcolor/LLM-Find/
 - 2024-05-19: GeoReasoner
