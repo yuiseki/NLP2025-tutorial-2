@@ -61,6 +61,8 @@
 
 ### 2023-07
 
+- 2023-07-08: OSM-GPT
+  - https://github.com/rowheat02/osm-gpt
 - 2023-07-16: GeoGPT
   - https://geogpt.zero2x.org.cn/
 - 2023-07-28: GeoGalactica
