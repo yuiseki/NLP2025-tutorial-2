@@ -11,18 +11,23 @@
   - spaCy (2015)
   - GiNZA (2019)
 
-## 主観的なまとめ
+## 生成 AI (transformer) 以降
 
 ### 2022
 
-- BERT
+- 各自が独自のアーキテクチャでpre-training
+  - ERNIE-GeoL
+- BERTのGISへの応用
+  - SpaBERT, GeoBERT
 
 ### 2023
 
 - LLM のファインチューニング
-- CLIP, VLM
+  - K2
+- VLM
 - 生成 AI プラットフォーム + OpenStreetMap
 - 生成 AI プラットフォーム + QGIS
+- Autonomous GIS
 
 ### 2024
 
