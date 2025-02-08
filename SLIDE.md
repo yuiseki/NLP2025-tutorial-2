@@ -5,34 +5,19 @@ theme: default
 paginate: true
 footer: 言語処理学会第31回年次大会（NLP2025）チュートリアル資料
 style: |
+  section {
+    margin-top: 0;
+    padding-top: 0;
+    color: rgba(80, 80, 80, 0.98);
+  }
+  section h1, section h2 {
+    color: rgb(0, 158, 219);
+  }
   section.title > h2, section.title > h3 {
     text-align: center;
-  }
-  section div.mermaid {
-    all: unset;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    z-index: 1000;
+    color: rgb(0, 158, 219);
   }
 ---
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
-mermaid.initialize({
-  startOnLoad: true,
-  sequence: {
-    diagramMarginX: 50,
-    diagramMarginY: 30,
-    boxTextMargin: 5,
-    mirrorActors:true,
-    height: 24,
-    topPadding: 10
-  },
-});
-window.addEventListener('vscode.markdown.updateContent', function() { mermaid.init() });
-</script>
 
 <!-- _class: lead -->
 
@@ -195,21 +180,9 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 ---
 
-## 001: 地名抽出とジオコーディング シーケンス図
+## 001: 地名抽出とジオコーディング 図
 
-<div class="mermaid">
-sequenceDiagram
-    participant User as 人間
-    participant System as システム
-    participant AI as 生成AI
-    participant Nominatim as Nominatim API
-    User->>System: 自然言語を入力
-    System-->>AI: 地名抽出を指示
-    AI-->>System: 抽出した地名を出力
-    System-->>Nominatim: 地名でAPIを呼び出す
-    Nominatim-->>System: 呼び出し結果
-    System->>User: 結果を地図上に表示
-</div>
+ここに図が入る
 
 ---
 
@@ -234,26 +207,9 @@ sequenceDiagram
 
 ---
 
-## 002: 複数地名抽出と経路探索 シーケンス図
+## 002: 複数地名抽出と経路探索 図
 
-<div class="mermaid" style="height: 25vh; transform: scale(0.9);">
-sequenceDiagram
-    participant User as 人間
-    participant System as システム
-    participant AI as 生成AI
-    participant Nominatim as Nominatim API
-    participant Valhalla as Valhalla API
-    User->>System: 自然言語を入力
-    System-->>AI: 出発地と目的地のペアを抽出
-    AI-->>System: 抽出した出発地と目的地を出力
-    System-->>Nominatim: 出発地でAPIを呼び出す
-    Nominatim-->>System: 出発地の座標
-    System-->>Nominatim: 目的地でAPIを呼び出す
-    Nominatim-->>System: 目的地の座標
-    System-->>Valhalla: 出発地と目的地の座標で経路探索
-    Valhalla-->>System: 経路探索結果
-    System->>User: 結果を地図として表示
-</div>
+ここに図が入る
 
 ---
 
@@ -280,21 +236,9 @@ sequenceDiagram
 
 ---
 
-## 003-001: Overpass API による地域情報取得 シーケンス図
+## 003-001: Overpass API による地域情報取得 図
 
-<div class="mermaid">
-sequenceDiagram
-    participant User as 人間
-    participant System as システム
-    participant AI as 生成AI
-    participant Overpass as Overpass
-    User->>System: 自然言語を入力
-    System-->>AI: Overpass QL を出力するように指示
-    AI-->>System: Overpass QL を出力
-    System-->>Overpass: Overpass API を呼び出す
-    Overpass-->>System: Overpass API の呼び出し結果
-    System->>User: 結果を地図上に表示
-</div>
+ここに図が入る
 
 ---
 
@@ -316,25 +260,9 @@ sequenceDiagram
 
 ---
 
-## 003-002: Few-Shot Prompt シーケンス図
+## 003-002: Few-Shot Prompt 図
 
-<div class="mermaid" style="height: 25vh; transform: scale(0.8);">
-sequenceDiagram
-    participant User as 人間
-    participant System as システム
-    participant AI as 生成AI
-    participant Overpass as Overpass API
-    System-->>System: ExamplesをEmbeddingしておく
-    User->>System: 自然言語を入力
-    System-->>AI: 入力をEmbeddingに変換させる
-    AI-->>System: Embeddingを出力
-    System-->>System: Embeddingが距離的に近いExamplesを探す
-    System-->>AI: Examplesに基づきFew ShotでOverpass QLを出力する指示
-    AI-->>System: Overpass QLを出力
-    System-->>Overpass: Overpass API を呼び出す
-    Overpass-->>System: Overpass API 呼び出し結果
-    System->>User: 結果を地図上に表示
-</div>
+ここに図が入る
 
 ---
 
