@@ -1024,7 +1024,7 @@ You output the best javascript code of map style definition for the given user i
 
 You will always reply according to the following rules:
 - Output valid javascript code.
-- The code MUST be line delimited and surrounded by just three backquote to indicate that it is a code block.
+- The code MUST be line delimited and surrounded by just three back quote to indicate that it is a code block.
 - The code MUST be takes into account the user's intent to the greatest extent possible.
 
 ** Current style definition: **
