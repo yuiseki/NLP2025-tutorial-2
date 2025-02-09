@@ -285,7 +285,8 @@ https://www.openstreetmap.org/copyright
 ## 001-001: Overpass API による地域情報取得 | プロンプト
 
 ```python
-# プロンプトテンプレートの準備
+from langchain_core.prompts import ChatPromptTemplate
+
 template = """You are an expert in Overpass API Query.
 Output the appropriate Overpass API Query from the user input.
 
@@ -308,11 +309,13 @@ Take a deep breath and carefully check if it is in accordance with the rules and
 User Input:
 {input}
 """
+
+prompt = ChatPromptTemplate.from_template(template)
 ```
 
 ---
 
-### 001-001: Overpass API による地域情報取得 | モデルの準備
+## 001-001: Overpass API による地域情報取得 | AI モデルの準備
 
 ```python
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -320,17 +323,15 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 model = ChatGoogleGenerativeAI(model="gemini-exp-1206", temperature=0)
 ```
 
+---
+
 ## 001-001: Overpass API による地域情報取得 | AI 呼び出し
 
 ```python
 input_text = "長崎県長崎市のカフェを地図に表示してください。"
 
-from langchain_core.prompts import ChatPromptTemplate
-
-prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
 
-# AI の呼び出し
 res = chain.invoke({"input": input_text})
 result = res.content.strip()
 print(result)
@@ -689,6 +690,8 @@ You will always reply according to the following rules:
 User Input:
 {input}
 """
+
+prompt = ChatPromptTemplate.from_template(template)
 ```
 
 ---
@@ -698,7 +701,6 @@ User Input:
 ```python
 input_text = "日本よりも人口密度が高い国は？"
 
-prompt = ChatPromptTemplate.from_template(template)
 chain = prompt | model
 
 res = chain.invoke({"input": input_text, "table_schema": summary_of_tables})
@@ -730,16 +732,17 @@ WHERE
 ```
 ````
 
+---
+
+## 002-001: DuckDB と Text-to-SQL | SQL 実行
+
 ````python
 # 正規表現でresultから ``` を使って SQL のみを抽出
 import re
 match = re.search(r"```[^\n]*\n(.*?)```", result, re.DOTALL)
 sql_query = match.group(1).strip()
+
 ````
-
----
-
-## 002-001: DuckDB と Text-to-SQL | SQL 実行
 
 ```python
 duckdb_result = conn.execute(sql_query).fetchall()
@@ -817,12 +820,110 @@ display(m)
 
 「生成 AI に SQL データベースの情報を踏まえて質問応答させる」
 
+---
+
+## 002-002: SQL RAG
+
 ### ステップ
 
 - DuckDB でデータベースを作成
 - 生成 AI で自然言語の質問に答えるための SQL を出力
 - DuckDB で SQL を実行
 - 自然言語の質問と SQL 実行結果を組み合わせて回答を生成
+
+---
+
+## 002-002: SQL RAG | プロンプト 1
+
+```python
+template = """You are an expert of PostgreSQL and PostGIS.
+You output the best PostgreSQL query based on given table schema and input text.
+
+You will always reply according to the following rules:
+- Output valid PostgreSQL query.
+- The query MUST be line delimited and surrounded by just three back quote to indicate that it is a code block.
+
+** Table Schema: **
+{table_schema}
+
+User Input:
+{input}
+"""
+
+prompt = ChatPromptTemplate.from_template(template)
+```
+
+---
+
+## 002-002: SQL RAG | AI 呼び出し 1
+
+```python
+input_text = "日本よりも広い国は世界で何ヶ国ありますか？"
+
+chain = prompt | model
+res = chain.invoke({"input": input_text, "table_schema": summary_of_tables})
+result = res.content.strip()
+```
+
+---
+
+## 002-002: SQL RAG | AI 出力 1
+
+````
+```sql
+SELECT
+  COUNT(*)
+FROM countries
+WHERE
+  ST_Area(geom) > (
+    SELECT
+      ST_Area(geom)
+    FROM countries
+    WHERE
+      NAME = 'Japan'
+  );
+```
+````
+
+---
+
+## 002-002: SQL RAG | SQL 実行
+
+```python
+duckdb_result = conn.execute(query).fetchall()
+duckdb_result
+```
+
+---
+
+## 002-002: SQL RAG | プロンプト 2
+
+```python
+prompt = (
+    "Given the following user question, corresponding SQL query, "
+    "and SQL result, answer the user question.\n\n"
+    f'Question: {input_text}\n'
+    f'SQL Query: {query}\n'
+    f'SQL Result: {duckdb_result}\n'
+)
+```
+
+---
+
+## 002-002: SQL RAG | AI 呼び出し 2
+
+```python
+answer = model.invoke(prompt).content.strip()
+print(answer)
+```
+
+---
+
+## 002-002: SQL RAG | AI 出力 2
+
+```
+日本よりも広い国は世界で59ヶ国あります。
+```
 
 ---
 
@@ -833,6 +934,161 @@ display(m)
 ---
 
 ## 003: ベクトルタイルと地図スタイルカスタマイズ
+
+### ゴール
+
+「生成 AI を使って自然言語による指示に基づいて地図スタイルを変更する」
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ
+
+### ステップ
+
+- Maplibre Style Spec で地図スタイルを定義
+- 生成 AI に Maplibre Style Spec と自然言語による指示を入力
+  - 生成 AI に Maplibre Style Spec を出力させる
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ | 地図スタイル定義
+
+Maplibre Style Spec とは
+
+```json
+{
+    'version': 8,
+    'sources': {
+        'openmaptiles': {
+            'type': 'vector',
+            'url': 'https://tile.openstreetmap.jp/data/planet.json'
+        },
+    },
+    'sprite': 'https://tile.openstreetmap.jp/styles/osm-bright/sprite',
+    'glyphs': 'https://tile.openstreetmap.jp/fonts/{fontstack}/{range}.pbf',
+    'layers': [
+        .....
+    ]
+}
+```
+
+layers には、地図をどう描画するかということが定義されている
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ | レイヤーの例
+
+```json
+{
+  "id": "place-country-2",
+  "type": "symbol",
+  "source": "openmaptiles",
+  "source-layer": "place",
+  "filter": ["all", ["==", "class", "country"]],
+  "layout": {
+    "text-field": "{name:latin}",
+    "text-font": ["Open Sans Regular"],
+    "text-max-width": 6.25,
+    "text-size": {
+      "base": 1,
+      "stops": [
+        [1, 11],
+        [4, 17]
+      ]
+    }
+  },
+  "paint": {
+    "text-color": "#7d8791",
+    "text-halo-blur": 1,
+    "text-halo-color": "hsla(228, 60%, 21%, 0.7)",
+    "text-halo-width": 1.4
+  }
+}
+```
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ | Before
+
+<img src="https://i.gyazo.com/742795a96d19c709a8fafddca3182ea9.png" width="100%">
+
+©️ OpenStreetMap contributors
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ | プロンプト
+
+```python
+template = """You are an expert of OpenStreetMap and Maplibre GL JS.
+You output the best javascript code of map style definition for the given user input.
+
+You will always reply according to the following rules:
+- Output valid javascript code.
+- The code MUST be line delimited and surrounded by just three backquote to indicate that it is a code block.
+- The code MUST be takes into account the user's intent to the greatest extent possible.
+
+** Current style definition: **
+{current_style}
+
+User Input:
+{input}
+"""
+prompt = ChatPromptTemplate.from_template(template)
+```
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ | AI 呼び出し
+
+```python
+input_text = "国の名前を赤色にしてください。"
+
+chain = prompt | model
+
+res = chain.invoke({"input": input_text, "current_style": current_style})
+result = res.content.strip()
+print(result)
+```
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ | AI 出力
+
+```json
+{
+  "id": "place-country-2",
+  "type": "symbol",
+  "source": "openmaptiles",
+  "source-layer": "place",
+  "filter": ["all", ["==", "class", "country"]],
+  "layout": {
+    "text-field": "{name:latin}",
+    "text-font": ["Open Sans Regular"],
+    "text-max-width": 6.25,
+    "text-size": {
+      "base": 1,
+      "stops": [
+        [1, 11],
+        [4, 17]
+      ]
+    }
+  },
+  "paint": {
+    "text-color": "#ff0000",
+    "text-halo-blur": 1,
+    "text-halo-color": "hsla(228, 60%, 21%, 0.7)",
+    "text-halo-width": 1.4
+  }
+}
+```
+
+---
+
+## 003: ベクトルタイルと地図スタイルカスタマイズ | 地図上に可視化 結果
+
+<img src="https://i.gyazo.com/9c5fd4ea0d62ffe2642096791f667be8.png" width="100%">
+
+©️ OpenStreetMap contributors
 
 ---
 
