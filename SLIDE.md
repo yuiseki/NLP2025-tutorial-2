@@ -148,95 +148,26 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 ## ハンズオンの内容
 
-- 001: 地名抽出とジオコーディング （5 分）
-- 002: 複数地名抽出と経路探索 （5 分）
-- 003: Overpass API と Few-Shot Prompt （5 分）
-  - 003-001: Overpass API による地域情報取得
-  - 003-002: Few-Shot Prompt
-- 004: DuckDB と SQL による地理空間情報データ分析, SQL RAG （5 分）
-  - 004-001: DuckDB と SQL による地理空間情報データ分析
-  - 004-002: SQL RAG
-- 005: ラスタータイルとキャプショニング（5 分）
-- 006: ベクトルタイルと地図スタイルカスタマイズ（5 分）
-- 999: GIS 特化 生成 AI のファインチューニング（5 分）
+- 001: Overpass API と Few-Shot Prompt （5 分）
+  - 001-001: Overpass API による地域情報取得
+  - 001-002: Few-Shot Prompt
+- 002: DuckDB と SQL による地理空間情報データ分析, SQL RAG （5 分）
+  - 002-001: DuckDB と SQL による地理空間情報データ分析
+  - 002-002: SQL RAG
+- 003: ベクトルタイルと地図スタイルカスタマイズ（5 分）
 
 ---
 
 <!-- _class: title -->
 
-## 001: 地名抽出とジオコーディング
+## 001: Overpass API と Few-Shot Prompt
+
+- 001-001: Overpass API による地域情報取得
+- 001-002: Few-Shot Prompt
 
 ---
 
-## 001: 地名抽出とジオコーディング
-
-### 地名抽出とは
-
-- 自然言語から地名を抽出すること
-
-### ジオコーディングとは
-
-- 住所や地名を緯度経度に変換すること
-
----
-
-## 001: 地名抽出とジオコーディング
-
-### ゴール
-
-「生成 AI で自然言語から地名を抽出し、Nominatim API を使ってジオコーディングする」
-
-### ステップ
-
-- 生成 AI で自然言語から地名を抽出
-- Nominatim API でジオコーディング
-- GeoJSON にして地図上に可視化
-
----
-
-## 001: 地名抽出とジオコーディング 図
-
-ここに図が入る
-
----
-
-<!-- _class: title -->
-
-## 002: 複数地名抽出と経路探索
-
----
-
-## 002: 複数地名抽出と経路探索
-
-### ゴール
-
-「生成 AI で自然言語から複数地名を抽出し、Valhalla API で経路探索を行う」
-
-### ステップ
-
-- 生成 AI で自然言語から複数地名を抽出
-- Nominatim API でジオコーディング
-- Valhalla API で経路探索
-- GeoJSON で地図上に可視化
-
----
-
-## 002: 複数地名抽出と経路探索 図
-
-ここに図が入る
-
----
-
-<!-- _class: title -->
-
-## 003: Overpass API と Few-Shot Prompt
-
-- 003-001: Overpass API による地域情報取得
-- 003-002: Few-Shot Prompt
-
----
-
-## 003-001: Overpass API による地域情報取得
+## 001-001: Overpass API による地域情報取得
 
 ### ゴール
 
@@ -250,13 +181,13 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 ---
 
-## 003-001: Overpass API による地域情報取得 図
+## 001-001: Overpass API による地域情報取得 図
 
 ここに図が入る
 
 ---
 
-## 003-002: Few-Shot Prompt
+## 001-002: Few-Shot Prompt
 
 ### ゴール
 
@@ -274,7 +205,7 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 ---
 
-## 003-002: Few-Shot Prompt 図
+## 001-002: Few-Shot Prompt 図
 
 ここに図が入る
 
@@ -282,14 +213,14 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 <!-- _class: title -->
 
-## 004: DuckDB と SQL RAG
+## 002: DuckDB と SQL RAG
 
-- 004-001: DuckDB と SQL による地理空間情報データ分析
-- 004-002: SQL RAG
+- 002-001: DuckDB と SQL による地理空間情報データ分析
+- 002-002: SQL RAG
 
 ---
 
-## 004-001: DuckDB と SQL による地理空間情報データ分析
+## 002-001: DuckDB と SQL による地理空間情報データ分析
 
 ### ゴール
 
@@ -304,7 +235,7 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 ---
 
-## 004-002: SQL RAG
+## 002-002: SQL RAG
 
 ### ゴール
 
@@ -321,31 +252,11 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 <!-- _class: title -->
 
-## 005: ラスタータイルとキャプショニング
+## 003: ベクトルタイルと地図スタイルカスタマイズ
 
 ---
 
-## 005: ラスタータイルとキャプショニング
-
----
-
-<!-- _class: title -->
-
-## 006: ベクトルタイルと地図スタイルカスタマイズ
-
----
-
-## 006: ベクトルタイルと地図スタイルカスタマイズ
-
----
-
-<!-- _class: title -->
-
-## 999: GIS 特化 AI のファインチューニング
-
----
-
-## 999: GIS 特化 AI のファインチューニング
+## 003: ベクトルタイルと地図スタイルカスタマイズ
 
 ---
 
