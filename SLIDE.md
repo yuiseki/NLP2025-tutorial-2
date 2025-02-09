@@ -957,18 +957,18 @@ Maplibre Style Spec とは
 
 ```json
 {
-    'version': 8,
-    'sources': {
-        'openmaptiles': {
-            'type': 'vector',
-            'url': 'https://tile.openstreetmap.jp/data/planet.json'
-        },
-    },
-    'sprite': 'https://tile.openstreetmap.jp/styles/osm-bright/sprite',
-    'glyphs': 'https://tile.openstreetmap.jp/fonts/{fontstack}/{range}.pbf',
-    'layers': [
-        .....
-    ]
+  "version": 8,
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://tile.openstreetmap.jp/data/planet.json"
+    }
+  },
+  "sprite": "https://tile.openstreetmap.jp/styles/osm-bright/sprite",
+  "glyphs": "https://tile.openstreetmap.jp/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+  .....
+  ]
 }
 ```
 
