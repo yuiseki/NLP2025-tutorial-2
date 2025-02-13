@@ -320,6 +320,7 @@ prompt = ChatPromptTemplate.from_template(template)
 ```python
 from langchain_google_genai import ChatGoogleGenerativeAI
 
+# モデルの準備
 model = ChatGoogleGenerativeAI(model="gemini-exp-1206", temperature=0)
 ```
 
@@ -588,6 +589,17 @@ area["name"="台東区"]->.searchArea;
 out geom;
 ```
 ````
+
+---
+
+## 001-002: Few-Shot Prompt | 何がすごいの？
+
+- 長崎県長崎市のカフェ
+- 東京都台東区のラーメン屋
+
+→
+
+- 東京都台東区のカフェ
 
 ---
 
@@ -1104,12 +1116,18 @@ print(result)
 
 ---
 
-## 自然言語と人工言語
+## 自然言語と人工言語 (1)
 
 - 人工言語
   - Overpass QL
   - SQL
   - Maplibre Style Spec
+
+---
+
+## 自然言語と人工言語 (2)
+
+- 人工言語が、計算機やデータセットと、人間の自然言語とを橋渡ししてくれる
 
 ---
 
@@ -1121,33 +1139,25 @@ print(result)
 
 ## 研究紹介 (1)
 
-### 取り上げたい過去の研究
-
-- ChatGeoPT (2023-03)
-- Voyager (2023-05)
+<img src="https://i.gyazo.com/b3ea55ad5c760093405e14f31d65cbc4.png" width="75%">
 
 ---
 
 ## 研究紹介 (2)
 
-### 近年の研究動向
-
-- 自律エージェントの研究が盛り上がっている
-  - 特に、 QGIS プラグインが非常に盛り上がっている
+<img src="https://i.gyazo.com/a0b3e9bfaef0bcfd6f996ac9952c9589.png" width="75%">
 
 ---
 
 ## 研究紹介 (3)
 
-### 研究分野の課題
+<img src="https://i.gyazo.com/497671111975f8e30ba2b703433803ae.png" width="75%">
 
-- 定量的なタスク定義やベンチマークが足りない
-  - 競争するべき
-    - 参考事例
-      - Chatbot Arena
-      - WebDev Arena
-- オープンなデータセットが足りない
-  - OSAID 1.0 においてはデータセットがオープンであることを推奨している
+---
+
+## 研究紹介 (4)
+
+<img src="https://i.gyazo.com/840ad7429da0f5607277a22d5dbf1fd7.png" width="50%">
 
 ---
 
@@ -1159,7 +1169,9 @@ print(result)
 
 ## まとめ
 
-- aaa
+- 地理情報技術のオープンデータや API やライブラリの使い方を紹介しました
+- 生成 AI をソフトウェアシステムのパーツとして扱うテクニックを紹介しました
+- この 2 つの組み合わせを紹介しました
 
 ---
 
