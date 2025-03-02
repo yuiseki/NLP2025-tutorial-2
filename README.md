@@ -15,14 +15,6 @@
 - [TIMELINE_PROJECT.md](TIMELINE_PROJECT.md)
   - 関連プロジェクトのタイムライン
 - `001/`
-  - 生成 AI による地名抽出
-  - Nominatim API によるジオコーディング
-  - GeoJSON: Point データの可視化
-- `002/`
-  - 生成 AI による複数の地名抽出
-  - Valhalla API による経路探索
-  - GeoJSON: LineString データの可視化
-- `003/`
   - 生成 AI による Overpass QL の出力
   - Overpass API による地域情報の取得
   - OvenStreetMap のデータ構造
@@ -30,7 +22,7 @@
   - GeoJSON: 複数の Point データの可視化
   - More
     - Example Selector と Few-Shot Prompt
-- `004/`
+- `002/`
   - DuckDB のセットアップ
   - Natural Earth とは
   - 生成 AI による SQL の出力
@@ -38,14 +30,23 @@
   - GeoJSON: MultiPolygon データの可視化
   - More
     - SQL RAG による地理空間情報データ分析・質問応答システム
-- `005/`
-  - ラスタータイルとは
-  - 地理院タイル 全国最新写真（シームレス） の紹介
-  - ラスタータイルの結合
-  - 生成 AI による空中写真画像のキャプショニング
-- `006/`
+- `003/`
   - ベクトルタイルとは
     - Maplibre Style Spec と style.json とは
   - style.json による地図のカスタマイズ
   - 生成 AI による style.json の出力
   - charites の紹介
+- `999/`
+  - `001/`
+    - 生成 AI による地名抽出
+    - Nominatim API によるジオコーディング
+    - GeoJSON: Point データの可視化
+  - `002/`
+    - 生成 AI による複数の地名抽出
+    - Valhalla API による経路探索
+    - GeoJSON: LineString データの可視化
+  - `003/`
+    - ラスタータイルとは
+    - 地理院タイル 全国最新写真（シームレス） の紹介
+    - ラスタータイルの結合
+    - 生成 AI による空中写真画像のキャプショニング
