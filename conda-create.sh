@@ -1,1 +1,1 @@
-conda create -n nlp2025 python=3.10
+conda create -n nlp2025 python=3.11
