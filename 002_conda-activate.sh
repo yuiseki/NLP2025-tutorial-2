@@ -1,1 +1,1 @@
-conda activate nlp2025
+conda activate nlp2025-t2
