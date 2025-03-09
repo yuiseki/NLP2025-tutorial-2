@@ -195,11 +195,15 @@
 
 ### 2024-09
 
+- 2024-09-01
+  - [Large Language Model-Driven Structured Output: A Comprehensive Benchmark and Spatial Data Generation Framework](https://www.mdpi.com/2220-9964/13/11/405)
 - 2024-09-22
   - [Beyond Words: Evaluating Large Language Models in Transportation Planning](https://arxiv.org/abs/2409.14516)
 
 ### 2024-10
 
+- 2024-10-01: ChatGeoAI
+  - [ChatGeoAI: Enabling Geospatial Analysis for Public through Natural Language, with Large Language Models](https://www.mdpi.com/2220-9964/13/10/348)
 - 2024-10-06: geospatial-code-llms-dataset
   - [Evaluation of Code LLMs on Geospatial Code Generation](https://arxiv.org/abs/2410.04617)
 - 2024-10-13: GeoCode-Eval, GeoCode-Bench, GEECode-GPT
@@ -221,9 +225,16 @@
 
 ### 2024-11
 
+- 2024-11-01: BB-GeoGPT
+  - [BB-GeoGPT: : A framework for learning a large language model for geographic information science](https://dl.acm.org/doi/10.1016/j.ipm.2024.103808)
 - 2024-11-05: GIS Copilot, SpatialAnalysisAgent
   - [GIS Copilot: Towards an Autonomous GIS Agent for Spatial Analysis](https://arxiv.org/abs/2411.03205)
 - 2024-11-10: CityGuessr
   - [CityGuessr: City-Level Video Geo-Localization on a Global Scale](https://arxiv.org/abs/2411.06344)
 - 2024-11-16:
   - [Chain-of-Programming (CoP) : Empowering Large Language Models for Geospatial Code Generation](https://arxiv.org/abs/2411.10753)
+
+### 2024-12
+
+- 2024-12-01: GNEMM
+  - [Geographic Named Entity Matching and Evaluation Recommendation Using Multi-Objective Tasks: A Study Integrating a Large Language Model (LLM) and Retrieval-Augmented Generation (RAG)](https://www.mdpi.com/2220-9964/14/3/95)
