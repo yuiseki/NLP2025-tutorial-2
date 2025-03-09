@@ -89,10 +89,6 @@ group GenAI + GIS
     group fine-tuning
       2023-06-05: K2
       2023-07-28: GeoGalactica
-      2024-03-05: infinite-tinyllama (by yuiseki)
-      2024-04-21: YuisekinAI (by yuiseki)
-      2024-04-29: YuisekinAI-mergekit (by yuiseki)
-      2024-05-05: tinyllama-coder-trident-v0.1 (by yuiseki)
     end
 
     group SAM
@@ -116,19 +112,14 @@ group GenAI + GIS
     2023-03-18: ChatGeoPT
     2023-03-30: osm-ai-map
     2023-04-17: LLM-Geo
-    2023-05-13: TRIDENT (by yuiseki)
     2023-06-06: GPT4GEO
     2023-07-16: GeoGPT
-    2023-07-17: postgis-sandbox-lab (by yuiseki)
     2023-08-01: GeoLM
-    2023-12-10: charites-ai (by yuiseki)
     2024-02-21: GeoLLM
     2024-03-29: Geode
     2024-05-11: LLM-Find
     2024-06-01: MapGPT
     2024-10-16: ShapefileGPT
-    2024-10-24: TRIDENT DuckDB (by yuiseki)
-    2024-11-07: TRIDENT Charites (by yuiseki)
 
     group QGIS plugins
       2023-02-12: QChatGPT
@@ -142,8 +133,6 @@ group GenAI + GIS
   group Dataset
     2023-05-10: AI-team-UoA/GeoQuestions1089
     2023-05-11: GeoGLUE
-    2024-03-23: yuiseki/sake_qa (by yuiseki)
-    2024-05-05: yuiseki/text2geoql (by yuiseki)
     2024-08-23: geospatial-code-llms-dataset
     2024-10-09: truemanv5666/GeoText1652_Dataset
     2024-11-27: foursquare/fsq-os-places
@@ -151,5 +140,27 @@ group GenAI + GIS
 
   group benchmark
     2024-04-19: LLMGeo
+  endGroup
+
+  group yuiseki
+    group Utilization
+    2023-05-13: TRIDENT
+    2023-07-17: postgis-sandbox-lab
+    2023-12-10: charites-ai
+    2024-10-24: TRIDENT DuckDB
+    2024-11-07: TRIDENT Charites
+    endGroup
+
+    group fine-tuning
+      2024-03-05: infinite-tinyllama
+      2024-04-21: YuisekinAI
+      2024-04-29: YuisekinAI-mergekit
+      2024-05-05: tinyllama-coder-trident-v0.1
+    endGroup
+
+    group Dataset
+      2024-03-23: yuiseki/sake_qa (dataset)
+      2024-05-05: yuiseki/text2geoql (dataset)
+    endGroup
   endGroup
 endGroup
