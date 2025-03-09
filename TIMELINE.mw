@@ -68,18 +68,60 @@ group GenAI
   endGroup
 
   group Alibaba
-    2023-08-03: Qwen-7B
-    2023-08-03: Qwen-7B-Chat
-    2023-12-04: Qwen-72B
+    2023-08-03: Qwen 7B
+    2023-09-25: Qwen 14B
+    2023-11-30: Qwen 72B
+    2024-02-04: Qwen 1.5
+    2024-03-28: Qwen 1.5-MoE
     2024-06-13: Qwen 2
+    2024-08-29: Qwen 2-VL
+    2024-09-12: Qwen 2.5
+    2024-11-28: QWQ-32B-Preview
+    2025-01-27: Qwen 2.5-VL
+    2025-03-06: QWQ-32B
   endGroup
 
   group Mistral
-    2023-09-27: Mistral 7B
+    2023-09-27: Mistral 7B v0.1
+    2023-09-27: Mistral 7B Instruct v0.1
+    2023-12-09: Mixtral 8x7B v0.1
+    2023-12-11: Mistral 7B Instruct v0.2
+    2024-03-24: Mistral 7B v0.2
+    2024-04-17: Mixtral 8x22B v0.1
+    2024-05-22: Mistral 7B v0.3
+    2024-05-29: Codestral 22B v0.1
+    2024-07-16: Mathstral 7B v0.1
+    2024-09-11: Pixtral 12B
+    2024-09-17: Mistral Small Instruct
+    2024-11-18: Pixtral Large Instruct
+    2024-11-18: Mistral Large Instruct
+    2025-01-31: Mistral Small 3
   endGroup
 
   group DeepSeek
+    2024-05-07: DeepSeek-V2
+    2024-09-06: DeepSeek-V2.5
+    2024-10-18: Janus
+    2024-12-13: DeepSeek-VL2
+    2024-12-25: DeepSeek-V3
     2025-01-20: DeepSeek-R1
+  endGroup
+
+  group LLM-jp
+    2023-10-20: LLM-jp 13B v1.0
+    2024-02-09: LLM-jp 13B v1.1
+    2024-04-30: LLM-jp 13B v2.0
+    2024-09-17: LLM-jp-3 172B beta1
+    2024-09-25: LLM-jp-3 1.8B
+    2024-09-25: LLM-jp-3 3.7B
+    2024-09-25: LLM-jp-3 13B
+    2024-11-15: LLM-jp-3 172B beta2
+    2024-11-20: LLM-jp-3 VILA 14B
+    2024-12-24: LLM-jp-3 172B instruct-3
+    2025-02-05: LLM-jp-3 instruct3 150M
+    2025-02-05: LLM-jp-3 instruct3 440M
+    2025-02-05: LLM-jp-3 instruct3 9800M
+    2025-02-05: LLM-jp-3 instruct3 7.2B
   endGroup
 
   group Other
