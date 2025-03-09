@@ -1,5 +1,29 @@
 # 論文タイムライン
 
+## 2020
+
+### 2020-07
+
+- 2020-07-15
+  - [Are We There Yet? Evaluating State-of-the-Art Neural Network based Geoparsers Using EUPEG as a Benchmarking Platform](https://arxiv.org/abs/2007.07455)
+
+### 2020-08
+
+- 2020-08-21
+  - [Spatial Language Representation with Multi-Level Geocoding](https://arxiv.org/abs/2008.09236)
+
+### 2020-09
+
+- 2020-09-17
+  - [A Deep Learning Approach to Geographical Candidate Selection through Toponym Matching](https://arxiv.org/abs/2009.08114)
+
+## 2021
+
+### 2021-11
+
+- 2021-11-12
+  - [A Novel Deep Learning Approach Using Contextual Embeddings for Toponym Resolution](https://www.mdpi.com/2220-9964/11/1/28)
+
 ## 2022
 
 ### 2022-05
@@ -38,6 +62,8 @@
 
 - 2023-01-11: MGeo
   - [MGeo: Multi-Modal Geographic Pre-Training Method](https://arxiv.org/abs/2301.04283)
+- 2023-01-31: TopoBERT
+  - [TopoBERT: Plug and Play Toponym Recognition Module Harnessing Fine-tuned BERT](https://arxiv.org/abs/2301.13631)
 
 ### 2023-03
 
@@ -48,8 +74,8 @@
 
 - 2023-04-13
   - [On the Opportunities and Challenges of Foundation Models for Geospatial Artificial Intelligence](https://arxiv.org/abs/2304.06798)
-- 2024-04-29
-  - [Where on Earth Do Users Say They Are?: Geo-Entity Linking for Noisy Multilingual User Input](https://arxiv.org/abs/2404.18784)
+- 2023-04-20
+  - [Geo-knowledge-guided GPT models improve the extraction of location descriptions from disaster-related social media messages](https://www.tandfonline.com/doi/full/10.1080/13658816.2023.2266495)
 
 ### 2023-05
 
@@ -110,6 +136,8 @@
   - [Are Large Language Models Geospatially Knowledgeable?](https://arxiv.org/abs/2310.13002)
 - 2024-10-10: GeoLLM
   - [GeoLLM: Extracting Geospatial Knowledge from Large Language Models](https://arxiv.org/abs/2310.06213)
+- 2024-10-17: GeoPLACE
+  - [Improving Toponym Resolution by Predicting Attributes to Constrain Geographical Ontology Entries](https://aclanthology.org/2024.naacl-short.3/)
 - 2023-10-23: GeoLM
   - [GeoLM: Empowering Language Models for Geospatially Grounded Language Understanding](https://arxiv.org/abs/2310.14478)
 - 2023-10-23
@@ -134,6 +162,8 @@
 
 ### 2023-12
 
+- 2023-05-18: GeoNorm
+  - [Improving Toponym Resolution with Better Candidate Generation, Transformer-based Reranking, and Two-Stage Resolution](https://arxiv.org/abs/2305.11315)
 - 2023-12-22:
   - [Data and Resources Paper: A Multi-granularity Decade-Long Geo-Tagged Twitter Dataset for Spatial Computing](https://dl.acm.org/doi/10.1145/3589132.3625654)
 - 2023-12-31: GeoGalactica
@@ -156,6 +186,11 @@
 
 - 2024-02-05
   - [Large Language Models are Geographically Biased](https://arxiv.org/abs/2402.02680)
+
+### 2024-04
+
+- 2024-04-29
+  - [Where on Earth Do Users Say They Are?: Geo-Entity Linking for Noisy Multilingual User Input](https://arxiv.org/abs/2404.18784)
 
 ### 2024-05
 

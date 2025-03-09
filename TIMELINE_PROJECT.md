@@ -1,6 +1,37 @@
 # 開発タイムライン
 
+## 2019
+
+### 2019-05
+
+- 2019-05-27: EUPEG, An Extensible and Unified Platform for Evaluating Geoparsers
+  - https://github.com/geoai-lab/EUPEG
+
+### 2019-07
+
+- 2019-07-18: geonorm
+  - https://github.com/clulab/geonorm
+
+### 2019-09
+
+- 2019-09-05: GeoAI2019Geoparser
+  - https://github.com/geoai-lab/GeoAI2019Geoparser
+
+## 2020
+
+### 2020-05
+
+- 2020-05-07: LwM_SIGSPATIAL2020_ToponymMatching, A Deep Learning Approach to Geographical Candidate Selection through Toponym Matching
+  - https://github.com/Living-with-machines/LwM_SIGSPATIAL2020_ToponymMatching
+
 ## 2021
+
+## 2021-02
+
+- 2021-02-14: TopoBERT, A Visual Tool for Exploring Word Representations from Fine-Tuned Transformer Models
+  - https://github.com/tdavislab/TopoBERT
+- 2021-02-18: mlg_evaldata
+  - https://github.com/google-research-datasets/mlg_evaldata
 
 ### 2021-05
 
@@ -110,6 +141,11 @@
   - https://github.com/VicenteVivan/geo-clip
 
 ## 2024
+
+### 2024-01
+
+- 0224-01-25: Geo-knowledge-guided-GPT-models-for-disaster-response
+  - https://github.com/geoai-lab/Geo-knowledge-guided-GPT-models-for-disaster-response
 
 ### 2024-02
 
