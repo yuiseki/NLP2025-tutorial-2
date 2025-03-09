@@ -95,6 +95,8 @@
 
 ### 2023-09
 
+- 2023-09-07: GeoQAMap
+  - [GeoQAMap - Geographic Question Answering with Maps Leveraging LLM and Open Knowledge Base](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2023.28)
 - 2023-09-12: samgeo
   - [samgeo: A Python package for segmenting geospatial data with the Segment Anything Model (SAM)](https://joss.theoj.org/papers/10.21105/joss.05663)
 - 2023-09-25
@@ -132,6 +134,8 @@
 
 ### 2023-12
 
+- 2023-12-22:
+  - [Data and Resources Paper: A Multi-granularity Decade-Long Geo-Tagged Twitter Dataset for Spatial Computing](https://dl.acm.org/doi/10.1145/3589132.3625654)
 - 2023-12-31: GeoGalactica
   - [GeoGalactica: A Scientific Large Language Model in Geoscience](https://arxiv.org/abs/2401.00434)
 
@@ -251,3 +255,10 @@
 
 - 2025-01-02: RACCOON
   - [RACCOON: A Retrieval-Augmented Generation Approach for Location Coordinate Capture from News Articles](https://arxiv.org/abs/2501.11440)
+- 2025-01-16
+  - [Augmenting a Large Language Model with a Combination of Text and Visual Data for Conversational Visualization of Global Geospatial Data](https://arxiv.org/abs/2501.09521v1)
+
+### 2025-02
+
+- 2025-02-04: Spatial-RAG
+  - [Spatial-RAG: Spatial Retrieval Augmented Generation for Real-World Spatial Reasoning Questions](https://arxiv.org/abs/2502.18470)

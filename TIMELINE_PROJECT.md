@@ -57,6 +57,8 @@
   - https://huggingface.co/datasets/AI-team-UoA/GeoQuestions1089
 - 2023-05-13: TRIDENT
   - https://github.com/yuiseki/TRIDENT
+- 2023-05-19: llllm,A suite of tools to perform geospatial operations using Large Language Models
+  - https://github.com/developmentseed/llllm
 
 ### 2023-06
 
@@ -66,6 +68,8 @@
   - https://github.com/davendw49/k2
 - 2023-06-14: Geo-SAM (plugin of QGIS), using Segment Anything Model (SAM) to accelerate segmenting or delineating landforms in geospatial raster images
   - https://github.com/coolzhao/Geo-SAM
+- 2023-06-21: Geo Aware LLM, A Multi-granularity Decade-Long Geo-Tagged Twitter Dataset for Spatial Computing
+  - https://github.com/ResponsibleAILab/Geo-Aware-LLM
 - 2023-06-30: GeoNet, Benchmarking Unsupervised Adaptation across Geographies
   - https://github.com/ViLab-UCSD/GeoNet
 
