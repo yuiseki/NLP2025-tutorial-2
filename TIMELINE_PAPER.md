@@ -278,6 +278,8 @@
   - [CityGuessr: City-Level Video Geo-Localization on a Global Scale](https://arxiv.org/abs/2411.06344)
 - 2024-11-16:
   - [Chain-of-Programming (CoP) : Empowering Large Language Models for Geospatial Code Generation](https://arxiv.org/abs/2411.10753)
+- 2024-11-26: MapEval
+  - [MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework](https://arxiv.org/abs/2411.17928)
 
 ### 2024-12
 

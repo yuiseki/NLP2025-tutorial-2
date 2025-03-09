@@ -54,6 +54,11 @@
 - 2022-11-09: geo-twitter, Predicting the Geolocation of Tweets Using transformer models on Customized Data
   - https://github.com/K4TEL/geo-twitter
 
+### 2022-12
+
+- 2022-12-30: Cloud_Map_Evaluation, MapEval
+  - https://github.com/JokerJohn/Cloud_Map_Evaluation
+
 ## 2023
 
 ### 2023-02
