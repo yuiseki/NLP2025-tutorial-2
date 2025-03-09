@@ -74,6 +74,8 @@
   - [GEO-Bench: Toward Foundation Models for Earth Monitoring](https://arxiv.org/abs/2306.03831)
 - 2023-06-08: K2
   - [K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization](https://arxiv.org/abs/2306.05064)
+- 2023-06-15
+  - [LLM-Powered Natural Language Text Processing for Ontology Enrichment](https://www.mdpi.com/2076-3417/14/13/5860)
 
 ### 2023-07
 
@@ -110,6 +112,8 @@
   - [GeoLM: Empowering Language Models for Geospatially Grounded Language Understanding](https://arxiv.org/abs/2310.14478)
 - 2023-10-23
   - [Geographical Erasure in Language Generation](https://arxiv.org/abs/2310.14777)
+- 2023-10-23
+  - [Evaluating Spatial Understanding of Large Language Models](https://arxiv.org/abs/2310.14540)
 - 2023-10-28: Prithvi
   - [Foundation Models for Generalist Geospatial Artificial Intelligence](https://arxiv.org/abs/2310.18660)
 
@@ -141,6 +145,8 @@
   - [A systematic review of geospatial location embedding approaches in large language models: A path to spatial AI systems](https://arxiv.org/abs/2401.10279)
 - 2024-01-14: MapGPT
   - [MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation](https://arxiv.org/abs/2401.07314)
+- 2024-01-22:
+  - [SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168)
 
 ### 2024-02
 
@@ -238,3 +244,10 @@
 
 - 2024-12-01: GNEMM
   - [Geographic Named Entity Matching and Evaluation Recommendation Using Multi-Objective Tasks: A Study Integrating a Large Language Model (LLM) and Retrieval-Augmented Generation (RAG)](https://www.mdpi.com/2220-9964/14/3/95)
+
+## 2025
+
+### 2025-01
+
+- 2025-01-02: RACCOON
+  - [RACCOON: A Retrieval-Augmented Generation Approach for Location Coordinate Capture from News Articles](https://arxiv.org/abs/2501.11440)
