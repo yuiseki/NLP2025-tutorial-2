@@ -2,6 +2,11 @@
 
 ## 2020
 
+### 2020-04
+
+- 2020-04-25
+  - [SE-KGE: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting](https://arxiv.org/abs/2004.14171)
+
 ### 2020-07
 
 - 2020-07-15
@@ -23,6 +28,8 @@
 
 - 2021-05-06
   - [Towards General Natural Language Understanding with Probabilistic Worldbuilding](https://arxiv.org/abs/2105.02486)
+- 2021-05-19
+  - [Geographic Question Answering: Challenges, Uniqueness, Classification, and Future Directions](https://arxiv.org/abs/2105.09392)
 
 ### 2021-09
 
@@ -47,6 +54,11 @@
   - [ERNIE-GeoL: A Geography-and-Language Pre-trained Model and its Applications in Baidu Maps](https://arxiv.org/abs/2203.09127)
   - 2022-08-14
     - [ERNIE-GeoL: A Geography-and-Language Pre-trained Model and its Applications in Baidu Maps](https://dl.acm.org/doi/10.1145/3534678.3539021)
+
+### 2022-07
+
+- 2022-07-12
+  - [Crossroads, Buildings and Neighborhoods: A Dataset for Fine-grained Location Recognition](https://aclanthology.org/2022.naacl-main.243/)
 
 ### 2022-10
 
@@ -208,6 +220,10 @@
 
 ### 2024-03
 
+- 2024-03-12
+  - [LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries](https://arxiv.org/abs/2403.07331)
+- 2024-03-15
+  - [Language to Map: Topological map generation from natural language path instructions](https://arxiv.org/abs/2403.10008)
 - 2024-03-16
   - [Pre-Trained Language Models Represent Some Geographic Populations Better Than Others](https://arxiv.org/abs/2403.11025)
 
@@ -247,6 +263,8 @@
 
 ### 2024-08
 
+- 2024-08-01
+  - [GeoAgent: To Empower LLMs using Geospatial Tools for Address Standardization](https://aclanthology.org/2024.findings-acl.362/)
 - 2024-08-18
   - [Image-Based Geolocation Using Large Vision-Language Models](https://arxiv.org/abs/2408.09474)
 - 2024-08-21: GeoReasoner
