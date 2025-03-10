@@ -19,12 +19,27 @@
 
 ## 2021
 
+### 2021-05
+
+- 2021-05-06
+  - [Towards General Natural Language Understanding with Probabilistic Worldbuilding](https://arxiv.org/abs/2105.02486)
+
+### 2021-09
+
+- 2021-09-21
+  - [WorldKG: A World-Scale Geographic Knowledge Graph](https://arxiv.org/abs/2109.10036)
+
 ### 2021-11
 
 - 2021-11-12
   - [A Novel Deep Learning Approach Using Contextual Embeddings for Toponym Resolution](https://www.mdpi.com/2220-9964/11/1/28)
 
 ## 2022
+
+### 2022-03
+
+- 2022-03-16
+  - [Geographic Adaptation of Pretrained Language Models](https://arxiv.org/abs/2203.08565)
 
 ### 2022-05
 
@@ -146,6 +161,8 @@
   - [Evaluating Spatial Understanding of Large Language Models](https://arxiv.org/abs/2310.14540)
 - 2023-10-28: Prithvi
   - [Foundation Models for Generalist Geospatial Artificial Intelligence](https://arxiv.org/abs/2310.18660)
+- 2024-10-30
+  - [HGeoKG: A Hierarchical Geographic Knowledge Graph for Geographic Knowledge Reasoning](https://doi.org/10.3390/ijgi14010018)
 
 ### 2023-11
 
@@ -159,6 +176,8 @@
   - [GeoChat: Grounded Large Vision-Language Model for Remote Sensing](https://arxiv.org/abs/2311.15826)
 - 2023-11-28: SatCLIP
   - [SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery](https://arxiv.org/abs/2311.17179)
+- 2024-11-19
+  - [Advancing Large Language Models for Spatiotemporal and Semantic Association Mining of Similar Environmental Events](https://arxiv.org/abs/2411.12880)
 
 ### 2023-12
 
@@ -187,10 +206,17 @@
 - 2024-02-05
   - [Large Language Models are Geographically Biased](https://arxiv.org/abs/2402.02680)
 
+### 2024-03
+
+- 2024-03-16
+  - [Pre-Trained Language Models Represent Some Geographic Populations Better Than Others](https://arxiv.org/abs/2403.11025)
+
 ### 2024-04
 
 - 2024-04-29
   - [Where on Earth Do Users Say They Are?: Geo-Entity Linking for Noisy Multilingual User Input](https://arxiv.org/abs/2404.18784)
+- 2024-04-26
+  - [Evaluation of Geographical Distortions in Language Models: A Crucial Step Towards Equitable Representations](https://arxiv.org/abs/2404.17401)
 
 ### 2024-05
 
@@ -278,8 +304,16 @@
   - [CityGuessr: City-Level Video Geo-Localization on a Global Scale](https://arxiv.org/abs/2411.06344)
 - 2024-11-16:
   - [Chain-of-Programming (CoP) : Empowering Large Language Models for Geospatial Code Generation](https://arxiv.org/abs/2411.10753)
-- 2024-11-26: MapEval
-  - [MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework](https://arxiv.org/abs/2411.17928)
+- 2024-11-19
+  - [Advancing Large Language Models for Spatiotemporal and Semantic Association Mining of Similar Environmental Events](https://arxiv.org/abs/2411.12880)
+- 2024-11-20: CurriculumLoc
+  - [CurriculumLoc: Enhancing Cross-Domain Geolocalization through Multi-Stage Refinement](https://arxiv.org/abs/2311.11604)
+- 2024-11-21: GeoText-1652
+  - [Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching](https://arxiv.org/abs/2311.12751)
+- 2024-11-24: GeoChat
+  - [GeoChat: Grounded Large Vision-Language Model for Remote Sensing](https://arxiv.org/abs/2311.15826)
+- 2024-11-28: SatCLIP
+  - [SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery](https://arxiv.org/abs/2311.17179)
 
 ### 2024-12
 
