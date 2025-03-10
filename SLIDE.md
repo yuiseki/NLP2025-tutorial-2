@@ -118,17 +118,27 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 - https://trident.yuiseki.net/
 
+https://gyazo.com/2e7c41f27dd1e320ba871398b216651a
+
 ---
 
 ## デモ：自然言語による地理情報 DB に対する質問応答
 
 - https://trident.yuiseki.net/duckdb
 
+https://gyazo.com/dc8e415eaa49474a95da3efcf1445c76
+
+https://gyazo.com/992acd3a433cca359be885c2ae231429
+
 ---
 
 ## デモ：自然言語指示に基づいた地図スタイルの変更
 
 - https://trident.yuiseki.net/charites
+
+https://gyazo.com/94b646921d91b1093fd581aca271f8ff
+
+https://gyazo.com/2d348a303e6763844764b11512982da1
 
 ---
 
