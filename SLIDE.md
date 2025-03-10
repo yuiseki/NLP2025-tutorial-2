@@ -17,6 +17,12 @@ style: |
     text-align: center;
     color: rgb(0, 158, 219);
   }
+  img {
+    max-width: 70%;
+  }
+  img.max-width-100 {
+    max-width: 100%;
+  }
 ---
 
 <!-- _class: lead -->
@@ -83,6 +89,24 @@ UN Open GIS Initiative, WG7, UN Smart Maps Group
 
 ---
 
+## UN Open GIS Initiative (1)
+
+[![Image from Gyazo](https://i.gyazo.com/5ef3a3bfbda63bc0f1c53fb4e9e3c139.png)](https://gyazo.com/5ef3a3bfbda63bc0f1c53fb4e9e3c139)
+
+---
+
+## UN Open GIS Initiative (2)
+
+[![Image from Gyazo](https://i.gyazo.com/7ea4b4e6b1b35112007238b1e072f35a.png)](https://gyazo.com/7ea4b4e6b1b35112007238b1e072f35a)
+
+---
+
+## UN Open GIS Initiative (3)
+
+[![Image from Gyazo](https://i.gyazo.com/1184c44d99cb06bddc959be535a65b2a.png)](https://gyazo.com/1184c44d99cb06bddc959be535a65b2a)
+
+---
+
 ## チュートリアルのゴール
 
 ### 言語研究分野で地理情報を扱う研究がさらに盛り上がってほしい
@@ -145,6 +169,8 @@ https://gyazo.com/2d348a303e6763844764b11512982da1
 <!-- _class: title -->
 
 ## ハンズオン
+
+### https://github.com/yuiseki/NLP2025-tutorial-2
 
 ---
 
@@ -278,6 +304,10 @@ https://www.openstreetmap.org/copyright
 ### ゴール
 
 「生成 AI を使って自然言語から Overpass QL を出力し、 Overpass API で地域情報を取得する」
+
+### ソースコード
+
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/001/001-overpass-api.ipynb
 
 ---
 
@@ -470,6 +500,10 @@ display(m)
 
 「生成 AI に Examples を与えて Few-Shot Prompt で Overpass QL を出力する」
 
+### ソースコード
+
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/001/002-few-shot.ipynb
+
 ---
 
 ## 001-002: Few-Shot Prompt
@@ -627,6 +661,14 @@ out geom;
 ### ゴール
 
 「生成 AI を使って自然言語から SQL を出力し、DuckDB で地理空間情報データ分析を行う」
+
+### ソースコード
+
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/002/001-duckdb-spatial.ipynb
+
+---
+
+## 002-001: DuckDB と Text-to-SQL
 
 ### ステップ
 
@@ -842,6 +884,10 @@ display(m)
 
 「生成 AI に SQL データベースの情報を踏まえて質問応答させる」
 
+### ソースコード
+
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/002/002-sql-rag.ipynb
+
 ---
 
 ## 002-002: SQL RAG
@@ -961,6 +1007,10 @@ print(answer)
 
 「生成 AI を使って自然言語による指示に基づいて地図スタイルを変更する」
 
+### ソースコード
+
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/003/000-vector-tile-style.ipynb
+
 ---
 
 ## 003: ベクトルタイルと地図スタイルカスタマイズ
@@ -1032,7 +1082,7 @@ layers には、地図をどう描画するかということが定義されて�
 
 ## 003: ベクトルタイルと地図スタイルカスタマイズ | Before
 
-<img src="https://i.gyazo.com/742795a96d19c709a8fafddca3182ea9.png" width="100%">
+<img src="https://i.gyazo.com/742795a96d19c709a8fafddca3182ea9.png" width="100%" class="max-width-100">
 
 ©️ OpenStreetMap contributors
 
@@ -1108,7 +1158,7 @@ print(result)
 
 ## 003: ベクトルタイルと地図スタイルカスタマイズ | 地図上に可視化 結果
 
-<img src="https://i.gyazo.com/9c5fd4ea0d62ffe2642096791f667be8.png" width="100%">
+<img src="https://i.gyazo.com/9c5fd4ea0d62ffe2642096791f667be8.png" width="100%" class="max-width-100">
 
 ©️ OpenStreetMap contributors
 
@@ -1144,6 +1194,10 @@ print(result)
 <!-- _class: title -->
 
 ## 研究紹介
+
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/TIMELINE.mw
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/TIMELINE_PAPER.md
+- https://github.com/yuiseki/NLP2025-tutorial-2/blob/main/TIMELINE_PROJECT.md
 
 ---
 
@@ -1201,7 +1255,8 @@ print(result)
 - 各自が独自のアーキテクチャで pre-training
   - ERNIE-GeoL
 - BERT の GIS への応用
-  - SpaBERT, GeoBERT
+  - SpaBERT
+  - GeoBERT
 
 ---
 
@@ -1212,9 +1267,13 @@ print(result)
 ### 2023
 
 - LLM のファインチューニング
-  - K2
+  - K2 (based on LLaMA-7B)
 - VLM
+  - PIGEON
+  - GeoChat
 - 生成 AI プラットフォーム + OpenStreetMap
+  - ChatGeoPT
+  - Text-to-OverpassQL
 - 生成 AI プラットフォーム + QGIS
   - Autonomous GIS
 
@@ -1230,8 +1289,11 @@ print(result)
 - VLM によって GeoGuesser で人間のプレイヤーに匹敵するモデルの登場
 - 自律エージェント研究のさらなる進展
   - データの取得まで自動化
+  - Geode
 - 生成 AI による GIS 開発タスクの遂行と評価
-- MapEval: 実用性重視のベンチマークの登場
+  - ShapefileGPT
+- **MapEval**: 実用性重視のベンチマークの登場
+  - https://mapeval.github.io/
 
 ---
 
