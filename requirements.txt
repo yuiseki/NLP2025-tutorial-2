@@ -82,7 +82,7 @@ httpx-sse==0.4.0
 huggingface-hub==0.29.2
 humanfriendly==10.0
 idna==3.10
-importlib_metadata==8.5.0
+importlib_metadata==8.6.1
 importlib_resources==6.5.2
 ipyevents==2.0.2
 ipyfilechooser==0.6.0
