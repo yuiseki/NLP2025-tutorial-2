@@ -199,6 +199,11 @@
 
 ## 2020
 
+### 2020-06
+
+- 2020-06-17: se-kge: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting
+  - https://github.com/gengchenmai/se-kge
+
 ### 2020-05
 
 - 2020-05-07: LwM_SIGSPATIAL2020_ToponymMatching, A Deep Learning Approach to Geographical Candidate Selection through Toponym Matching
