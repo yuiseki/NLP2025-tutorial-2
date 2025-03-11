@@ -108,11 +108,15 @@
   - [Evaluating and Benchmarking Foundation Models for Earth Observation and Geospatial AI](https://arxiv.org/abs/2406.18295)
 - 2024-06-13: VLGFMs
   - [Towards Vision-Language Geo-Foundation Model: A Survey](https://arxiv.org/abs/2406.09385)
+- 2024-06-10
+  - [A survey on geocoding: algorithms and datasets for toponym resolution](https://link.springer.com/article/10.1007/s10579-024-09730-2)
 
 ### 2024-05
 
 - 2024-05-30: LLMGeo
   - [LLMGeo: Benchmarking Large Language Models on Image Geolocation In-the-wild](https://arxiv.org/abs/2405.20363v1)
+- 2024-05-30
+  - [Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships](https://agile-giss.copernicus.org/articles/5/12/2024/)
 - 2024-05-23
   - [Learning Geospatial Region Embedding with Heterogeneous Graph](https://arxiv.org/abs/2405.14135)
 - 2024-05-23: G3
@@ -138,6 +142,8 @@
 
 ### 2024-02
 
+- 2024-02-20
+  - [Toponym resolution leveraging lightweight and open-source large language models and geo-knowledge](https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2405182?af=R)
 - 2024-02-05
   - [Large Language Models are Geographically Biased](https://arxiv.org/abs/2402.02680)
 
