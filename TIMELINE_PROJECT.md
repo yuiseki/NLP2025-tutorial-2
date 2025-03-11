@@ -44,7 +44,7 @@
 - 2024-05-19: GeoReasoner, Geo-localization with Reasoning in Street Views using a Large Vision-Language Mode
   - https://github.com/lingli1996/GeoReasoner
 - 2024-05-11: LLM-Find, An autonomous GIS agent framework for geospatial data retrieval
-  - https://github.com/gladcolor/LLM-Find/
+  - https://github.com/gladcolor/LLM-Find
 - 2024-05-04: remote-sensing-image-retrieval, Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models
   - https://github.com/IBM/remote-sensing-image-retrieval
 
