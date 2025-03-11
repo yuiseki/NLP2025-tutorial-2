@@ -4,7 +4,7 @@
 
 ### 2024-10
 
-- 2024-10-22: GeoLLaVA, Efficient Fine-Tuned Vision-Language Models for Temporal Change Detection in Remote Sensing
+- 2024-10-22: GeoLLaVA, Code base and information about the GeoLLaVA project
   - https://github.com/HosamGen/GeoLLaVA
 
 ### 2024-09
