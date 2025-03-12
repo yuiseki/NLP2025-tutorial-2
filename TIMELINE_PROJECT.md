@@ -1,11 +1,19 @@
 # 開発タイムライン
 
+## 2025
+
+### 2025-01
+
 ## 2024
 
 ### 2024-10
 
 - 2024-10-22: GeoLLaVA, Code base and information about the GeoLLaVA project
   - https://github.com/HosamGen/GeoLLaVA
+- 2024-10: MapEval
+  - https://github.com/MapEval/MapEval-Textual
+  - https://github.com/MapEval/MapEval-API
+  - https://github.com/MapEval/MapEval-Visual
 
 ### 2024-09
 
@@ -163,11 +171,6 @@
   - https://github.com/KIOS-Research/QChatGPT
 
 ## 2022
-
-### 2022-12
-
-- 2022-12-30: Cloud_Map_Evaluation, MapEval
-  - https://github.com/JokerJohn/Cloud_Map_Evaluation
 
 ### 2022-11
 
