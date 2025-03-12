@@ -200,6 +200,8 @@
   - [GeoLLM: Extracting Geospatial Knowledge from Large Language Models](https://arxiv.org/abs/2310.06213)
 - 2024-10-09
   - [Are Large Language Models Geospatially Knowledgeable?](https://arxiv.org/abs/2310.13002)
+- 2024-10-03
+  - [Language Models Represent Space and Time](https://arxiv.org/abs/2310.02207)
 
 ### 2023-09
 
