@@ -14,10 +14,14 @@
   - 関連論文のタイムライン
 - [TIMELINE_PROJECT.md](TIMELINE_PROJECT.md)
   - 関連プロジェクトのタイムライン
+- [SETUP_Common.md](SETUP_Common.md)
+  - 各環境共通のセットアップ手順
 - [SETUP_VSCode.md](SETUP_VSCode.md)
   - Visual Studio Code のセットアップ手順
+- [SETUP_Docker.md](SETUP_Docker.md)
+  - Docker を利用したハンズオン環境セットアップ手順
 - [SETUP_WSL2_Ubuntu.md](SETUP_WSL2_Ubuntu.md)
-  - WSL2 Ubuntu におけるよるハンズオン環境セットアップ手順
+  - WSL2 Ubuntu と Miniconda を利用したハンズオン環境セットアップ手順
 - `001/`
   - 生成 AI による Overpass QL の出力
   - Overpass API による地域情報の取得
