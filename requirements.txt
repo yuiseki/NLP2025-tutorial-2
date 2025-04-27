@@ -79,7 +79,7 @@ httpcore==1.0.7
 httptools==0.6.4
 httpx==0.28.1
 httpx-sse==0.4.0
-huggingface-hub==0.29.2
+huggingface-hub==0.30.2
 humanfriendly==10.0
 idna==3.10
 importlib_metadata==8.5.0
