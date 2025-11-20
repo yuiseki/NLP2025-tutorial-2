@@ -122,7 +122,7 @@ kubernetes==32.0.1
 langchain==0.3.20
 langchain-chroma==0.2.2
 langchain-community==0.3.27
-langchain-core==0.3.43
+langchain-core==0.3.80
 langchain-google-genai==2.0.11
 langchain-text-splitters==0.3.9
 langsmith==0.3.13
