@@ -134,7 +134,7 @@ maplibre==0.2.8
 mapwidget==0.1.2
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
-marshmallow==3.26.1
+marshmallow==3.26.2
 matplotlib==3.10.1
 matplotlib-inline==0.1.7
 mdit-py-plugins==0.4.2
