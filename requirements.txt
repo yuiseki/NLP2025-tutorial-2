@@ -50,7 +50,7 @@ durationpy==0.9
 executing==2.2.0
 fastapi==0.115.11
 fastjsonschema==2.21.1
-filelock==3.18.0
+filelock==3.20.1
 filetype==1.2.0
 Flask==3.1.1
 Flask-Caching==2.3.1
