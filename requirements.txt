@@ -20,7 +20,7 @@ bcrypt==4.3.0
 beautifulsoup4==4.13.3
 bleach==6.2.0
 blinker==1.9.0
-bqplot==0.12.44
+bqplot==0.12.45
 branca==0.8.1
 build==1.2.2.post1
 cachelib==0.13.0
