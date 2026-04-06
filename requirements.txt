@@ -196,7 +196,7 @@ pycparser==2.22
 pydantic==2.10.6
 pydantic-settings==2.8.1
 pydantic_core==2.27.2
-Pygments==2.19.1
+Pygments==2.20.0
 pyogrio==0.10.0
 pyparsing==3.2.1
 PyPika==0.48.9
