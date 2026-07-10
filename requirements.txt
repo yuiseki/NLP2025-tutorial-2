@@ -140,7 +140,7 @@ matplotlib-inline==0.1.7
 mdit-py-plugins==0.4.2
 mdurl==0.1.2
 mercantile==1.2.1
-mistune==3.1.2
+mistune==3.3.0
 mmh3==5.1.0
 monotonic==1.6
 morecantile==6.2.0
