@@ -125,7 +125,7 @@ langchain-community==0.3.27
 langchain-core==1.2.11
 langchain-google-genai==2.0.11
 langchain-text-splitters==0.3.9
-langsmith==0.3.13
+langsmith==0.8.18
 leafmap==0.42.13
 linkify-it-py==2.0.3
 localtileserver==0.10.6
