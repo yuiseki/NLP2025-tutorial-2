@@ -31,7 +31,7 @@ charset-normalizer==3.4.1
 chroma-hnswlib==0.7.6
 chromadb==0.6.3
 click==8.1.8
-click-plugins==1.1.1
+click-plugins==1.1.1.2
 cligj==0.7.2
 color-operations==0.1.6
 coloredlogs==15.0.1
