@@ -25,7 +25,7 @@ branca==0.8.1
 build==1.2.2.post1
 cachelib==0.13.0
 cachetools==5.5.2
-certifi==2025.1.31
+certifi==2026.10.19
 cffi==1.17.1
 charset-normalizer==3.4.1
 chroma-hnswlib==0.7.6
